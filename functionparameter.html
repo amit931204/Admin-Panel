@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>function with parameters</title>
+  </head>
+  <body>
+    <h4>Function with parameters</h4>
+    <script>
+      function display(name1, name2, name3) //Function with parameter
+      {
+        document.write(name1 + " to " + name2 + " to " + name3);
+      }
+      display("first parameter", "second parameter", 544+"<br>");
+
+      //For loop use
+      for(i=0; i<5; i++)
+    {
+      document.write(i + "<br>"); // OR for break line:- document.write("<br>");
+    }
+    document.write("<br>" +"Rest of the Code given below");
+      
+      // For loop another type.
+      var a=0;
+      for( ; a<4; a++)
+      {
+        document.write("<br>" + a);
+      }
+        document.write("<br>" +"Rest of the code");
+      //for loop another type.
+      var b=0;
+      for( ; b<10; )
+      {
+        b++; //print start 1 to 10
+        document.write("<br>" + b);
+        //b++    // if add here print start 0 to 9.
+      }
+      document.write("<br>" +"Rest of the code");
+
+      //for loop another type
+      var c=0;
+      for(;;c++)
+      {
+        if(c==3)
+        {
+          break;
+        }
+        document.write("<br>"+c);
+      }
+    </script>
+  </body>
+</html>
